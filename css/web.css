@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 1.5;
+    font-weight: normal;
+    overflow-x: hidden !important;
+    font-family: 'Rubik', sans-serif;
+}
+.header_section {
+    width: 100%;
+    float: left;
+    background-color: rgb(148, 148, 148);
+    height: auto;
+    background-size: 100%;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.header_main {
+    width: 100%;
+    float: left;
+    background: #10e2bd;
+    height: 80px;
+}
+
+.navbar li a:hover {
+    color: rgb(241, 113, 21) !important;
+}
+
+.navbar {
+    padding: 20px 1px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+}
+.logo{
+    margin-left: 150px;
+}
+.logo img{
+    height: 70px;
+    width: 100px;
+}
+
+/* banner */
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(../media/images/banner1-web.png);
+    height: auto;
+    background-size: 100%;
+    padding: 10px 0px 0 0px;
+    background-repeat: no-repeat;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+
+.coffeeviet_text {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+.thuonghieu_text {
+    width: 100%;
+    float: left;
+    font-size: 60px;
+    color: #fdfcfa;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.vuot_text {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    color: rgb(187, 179, 179);
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.dathang_bt {
+    width: 170px;
+}
+
+.dathang_bt a {
+    width: 100%;
+    float: left;
+    padding-right: 0;
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    margin-right: 12px;
+    height: 53px;
+    padding: 15px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dathang_bt a:hover {
+    background-color: #f76d37;
+    color: #fff;
+    text-decoration: none;
+}
+
+#main_slider a.carousel-control-next {
+    left: 0px;
+    right: -60px;
+    top: 440px;
+}
+
+#main_slider a.carousel-control-prev {
+    left: -60px;
+    right: 0px;
+    top: 440px;
+}
+
+#main_slider .carousel-control-next,
+#main_slider .carousel-control-prev {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #333333;
+    margin: 0 auto;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main_slider .carousel-control-next:focus,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-prev:hover {
+    color: #ffffff;
+    background-color: #f76d37;
+}
+/* về chúng tôi */
+.vechung_section {
+    width: 100%;
+    float: left;
+}
+
+.vechung_section .container {
+    padding-bottom: 50px;
+}
+
+.vechung_taital_main {
+    width: 100%;
+    float: left;
+    padding: 120px 0px;
+    margin-top: 250px;
+}
+
+.vechung_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+   
+}
+
+.thuong_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.tuananh_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.docthem_bt {
+    width: 175px;
+    float: left;
+    padding-top: 40px;
+}
+
+.docthem_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #252525;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+}
+
+.docthem_bt a:hover {
+    color: #ffffff;
+    background-color: #f76d37;
+    text-decoration: none;
+}
+.vechung_img img {
+    margin-top: 250px;
+    margin-left: 45px;
+}
+/* thực đơn */
+.thucdon_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.thucdon_taital {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.thucdon_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    color: #262525;
+}
+
+.thucdon_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img.image {
+    min-height: 300px;
+}
+
+.container_main {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(254, 230, 220, 0.6);
+    margin: 0 auto;
+}
+
+.container_main:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+.xemthem_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.xemthem_bt a {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #252525;
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.xemthem_bt a:hover {
+    background-color: #f76d37;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f76d37;
+    text-decoration: underline;
+}
+/* --------dịch vụ */
+.dichvu_section {
+    width: 100%;
+    float: left;
+    background-image: url(../media/images/dichvu2-web.jpg);
+    height: auto;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+.dichvu_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color:  #f76d37;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dichvu_text {
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0px;
+    text-align: center;
+}
+
+.house_icon {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.house_icon img {
+    width: 45px;
+    min-height: 50px;
+}
+
+.box_main .house_icon .image_2 {
+    display: none;
+}
+
+.box_main:hover .house_icon .image_2 {
+    display: block;
+}
+
+.box_main:hover .house_icon .image_1 {
+    display: none;
+}
+
+.box_main:hover {
+    background-color: #ffffff;
+}
+
+.box_main {
+    width: 100%;
+    background-color: #f76d37;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 18px -6px;
+}
+
+.box_main:hover .chatluong_text {
+    color: #000;
+}
+
+.box_main:hover .mota_text {
+    color: #000;
+}
+
+.box_main:hover .readmore_bt {
+    display: block;
+}
+
+.box_main:hover .readmore_bt a {
+    color: #ffffff;
+    background-color: #000;
+}
+
+.dichvu_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.chatluong_text {
+    width: 100%;
+    font-size: 28px;
+    color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mota_text {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.readmore_bt {
+    width: 175px;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    display: none;
+    padding-bottom: 40px;
+}
+
+.readmore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #070603;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+  
+}
+
+.readmore_bt a:hover {
+    color: #ffffff;
+    background-color: #f76d37;
+    text-decoration: none;
+}
+/* footer */
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: 200px;
+    padding: 30px 200px;
+
+}
+
+.footer_section .row {
+    display: flex;
+}
+
+.footer_section .row .contact-item {
+    flex: 2;
+}
+
+.footer_section .row .menu-item {
+    flex: 1;
+}
+
+.useful_text {
+    width: 100%;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+.footer_menu {
+    width: 100%;
+    float: left;
+}
+
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.footer_menu li {
+    font-size: 14px;
+    color: #ffffff;
+   
+}
+
+.footer_menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_menu li a:hover {
+    color: #f76d37;
+}
+
+.location_text {
+    width: 100%;
+    float: left;
+}
+
+.location_text ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+}
+
+.location_text li {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0px 0px 5px 0px;
+}
+
+.location_text li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.location_text li a:hover {
+    color: #f76d37;
+}
+
+.padding_left_10 {
+    padding-left: 10px;
+}
+.logo-footer img {
+    height: 150px;
+    width: 150px;
+}
+/* modal-------------------------------- */
+.modal-title {
+    color: #f76d37;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.modal-footer button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #f76d37 !important;
+    border-color: transparent;
+    outline: line;
+    font-weight: bold;
+    transition: all .6s ease-in;
+}
+
+.modal-footer button:hover {
+    background-color: transparent !important;
+    color: #f76d37;
+    border: 1px solid #f76d37;
+}
+
+@media screen and (max-width: 768px) {
+    .banner_taital {
+        padding: 30px 0 50px 0;
+    }
+    .coffeeviet_text, .thuonghieu_text {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .logo {
+        margin: 0;
+    }
+    .logo img {
+        height: 20px;
+    }
+    .vechung_taital_main {
+        padding: 0;
+        margin: 0;
+    }
+    .vechung_img img {
+        margin: 0;
+    }
+    .vechung_section {
+        padding: 70px 0 30px 0;
+    }
+    .thucdon_section {
+        padding-bottom: 40px;
+    }
+    .chatluong_text {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .dichvu_section {
+        padding-bottom: 40px;
+    }
+    .house_icon img {
+        position: absolute;
+        left: 30%;
+    }
+    .footer_section {
+        padding: 15px;
+        min-height: 230px;
+    }
+    .logo img {
+        height: 40px;
+        width: 60px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .vechung_section {
+        padding-top: 0px;
+    }
+    .logo {
+        margin: 0;
+    }
+    .logo img {
+        height: 14px;
+    }
+    .banner_taital {
+        padding: 10px 0 20px 0;
+    }
+    .coffeeviet_text, .thuonghieu_text, .vechung_taital {
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .vuot_text {
+        display: none;
+    }
+    .dathang_bt a {
+        padding: 10px 20px !important;
+        margin: 0;
+        width: 80%;
+        font-size: 12px;
+    }
+    .vechung_taital_main {
+        padding: 0;
+        margin: 0;
+    }
+    .vechung_img img {
+        margin: 0;
+    }
+    .docthem_bt {
+        padding: 20px 0;
+    }
+    .thucdon_section_2 {
+        padding: 0;
+    }
+    .thucdon_section_2 .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .thucdon_section {
+        padding-bottom: 40px;
+    }
+    .dichvu_section .col-sm-12 {
+        margin-top: 16px;
+    }
+    .footer_section {
+        padding: 15px;
+        min-height: 150px;
+    }
+    .footer_section .container .row {
+        display: flex;
+    }
+    .useful_text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .footer_menu a, .location_text a {
+        font-size: 12px;
+    }
+    .vechung_section .col-md-6 {
+        margin-bottom: 8px;
+    }
+    .house_icon img {
+        position: absolute;
+        left: 42%;
+    }
+    .logo-footer{
+        display: none;
+    }
+    .logo img {
+        height: 30px;
+        width: 50px;
+    }
+}
